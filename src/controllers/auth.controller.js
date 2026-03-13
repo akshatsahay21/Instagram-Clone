@@ -16,6 +16,7 @@ async function registerController(req, res) {
   // if(isUserExistByUsername){
   //     return res.status(400).json({
   //         message: "Username already exists with same username"
+
   //     })
   // }
 
@@ -44,6 +45,7 @@ async function registerController(req, res) {
   });
   // user ka data hona chaiye
   // data unique hona chaiye
+  // password hash hona chaiye
   const token = jwt.sign(
     {
       id: user._id,
