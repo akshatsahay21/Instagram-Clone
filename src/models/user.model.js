@@ -19,7 +19,8 @@ const userSchema = new mongoose.Schema({
     profileImage: {
     type: String,
     default: "https://ik.imagekit.io/xig2klow2/avatar-default-user-profile-icon-simple-flat-vector-57234190.webp"
-    }
+    },
+   
 });
 
 
